@@ -1,4 +1,4 @@
-# Impact-of-Meat-Consumption
+# Impact of Meat Consumption
 
 Meat consumption has grown rapidly over the past 50 years, from 71 million tonnes in 1961
 to 318 million tonnes in 2014 globally, which is almost a 450% growth.
