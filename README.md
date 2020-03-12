@@ -12,7 +12,7 @@ this project, it will explore the relationship between the level of meat consump
 how it influences global climate change and human health. 
 
 
-This project will first demonstrate how the increasing of diet related chronic
+This project will first use a shiny dashboard to demonstrate how the increasing of diet related chronic
 disease may linked to the level of meat consumption, by examining the change in meat
 consumption level over the years and these diseases rate from different countries. Then, it will be illustrating
 how the increasing of consumption of meat may lead to a worsening climate problem, by exploring greenhouse gases produced, 
