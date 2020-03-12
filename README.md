@@ -18,6 +18,8 @@ consumption level over the years and these diseases rate from different countrie
 how the increasing of consumption of meat may lead to a worsening climate problem, by exploring greenhouse gases produced, 
 waste produced, and land used from meat production.
 
+![screenshot](/shiny.png?raw)
+
 ## Conclusion
 In summary, several researches have stated that meat consumption level plays an important
 role in our health, we also found out that there is a positive correlation between meat
