@@ -27,6 +27,9 @@ library(treemap)
 # install.packages('GGally')
 library(GGally)
 
+require(shinydashboard)
+
+
 #import dataset
 defor_data <- read_excel("cause of deforestation in Amazon.xlsx")
 N2O_data <- read_excel("edited_Nitrous_oxide_emission.xlsx")
