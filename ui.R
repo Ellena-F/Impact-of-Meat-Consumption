@@ -30,7 +30,7 @@ library(treemap)
 library(GGally)
 library('shiny')
 library('countrycode')
-#require(shinydashboard)
+require(shinydashboard)
 
 #ui
 ##create and design dashboard with menu
