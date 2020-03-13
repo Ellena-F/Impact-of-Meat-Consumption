@@ -28,16 +28,16 @@ runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
 
 Library/package required:
 #install package
-# install.packages('rworldmap')
-# install.packages('shinydashboard')
-# install.packages('geomnet')
-# install.packages('countrycode')
-# install.packages('PBSmapping')
-# install.packages('plotrix')
-# install.packages('packcircles')
-# install.packages('svgPanZoom')
-# install.packages('treemap')
-# install.packages('GGally')
+install.packages('rworldmap')
+install.packages('shinydashboard')
+install.packages('geomnet')
+install.packages('countrycode')
+install.packages('PBSmapping')
+install.packages('plotrix')
+install.packages('packcircles')
+install.packages('svgPanZoom')
+install.packages('treemap')
+install.packages('GGally')
 
 #import library 
 library(shiny)
