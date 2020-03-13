@@ -31,7 +31,7 @@ library(treemap)
 library(GGally)
 library('shiny')
 library('countrycode')
-require(shinydashboard)
+#require(shinydashboard)
 
 #import dataset
 defor_data <- read_excel("cause of deforestation in Amazon.xlsx")
