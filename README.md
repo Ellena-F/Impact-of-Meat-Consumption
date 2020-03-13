@@ -26,6 +26,40 @@ Launch shiny app by running this code on R:
 
 runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
 
+Library required:
+
+shiny
+
+readxl
+
+rworldmap
+
+shinydashboard
+
+ggplot2
+
+dplyr
+
+viridis
+
+countrycode
+
+data.table
+
+plyr
+
+PBSmapping
+
+plotrix
+
+packcircles
+
+svgPanZoom
+
+treemap
+
+GGally
+
 ## Conclusion
 In summary, several researches have stated that meat consumption level plays an important
 role in our health, we also found out that there is a positive correlation between meat
