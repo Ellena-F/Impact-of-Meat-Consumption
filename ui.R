@@ -26,6 +26,9 @@ library(svgPanZoom)
 library(treemap)
 # install.packages('GGally')
 library(GGally)
+
+require(shinydashboard)
+
 #ui
 ##create and design dashboard with menu
 ui <- dashboardPage( skin="purple",
