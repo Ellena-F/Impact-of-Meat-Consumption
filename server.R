@@ -26,6 +26,7 @@ library(svgPanZoom)
 library(treemap)
 # install.packages('GGally')
 library(GGally)
+require(shinydashboard)
 
 #import dataset
 defor_data <- read_excel("cause of deforestation in Amazon.xlsx")
