@@ -18,7 +18,9 @@ consumption level over the years and these diseases rate from different countrie
 how the increasing of consumption of meat may lead to a worsening climate problem, by exploring greenhouse gases produced, 
 waste produced, and land used from meat production.
 
-runGitHub( "<Impact-of-Meat-Consumption-Shiny>", "<Ellena-F>")
+runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
+
+runGist("aca4e5a92c66382cd3c5a72de3285cb1")
 
 [screenshot](/shiny.png?raw)
 
