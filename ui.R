@@ -29,6 +29,8 @@ library(treemap)
 library(GGally)
 
 require(shinydashboard)
+#ui
+##create and design dashboard with menu
 ui <- dashboardPage( skin="purple",
                      dashboardHeader(title = "Impact of meat consumption",titleWidth = 310),
                      dashboardSidebar(width=310,
@@ -67,10 +69,10 @@ ui <- dashboardPage( skin="purple",
                          tabItem(tabName="Meat",
                                  
                                  fluidRow( box(title="Meat Consumption level",
-                                               width='auto',solidHeader = TRUE,
+                                               width=10,solidHeader = TRUE,
                                                status="primary",
                                                #output map
-                                               withSpinner(plotOutput("meat_map",height=500,width=700)),
+                                               withSpinner(plotOutput("meat_map",height=500,width='auto')),
                                                #use slider to put different year as input
                                                sliderInput('year','Year:',1990,2018,2016)
                                  ))),
@@ -113,24 +115,24 @@ ui <- dashboardPage( skin="purple",
                          
                          
                          tabItem(tabName = "Gases",
-                                 fluidRow(box(title="Greenhouse gases Emission from different sectors",width='auto',collapsible=TRUE,solidHeader = TRUE,status="primary",
+                                 fluidRow(box(title="Greenhouse gases Emission from different sectors",width=10,collapsible=TRUE,solidHeader = TRUE,status="primary",
                                               selectInput("ghg",'Greenhouse gases Emission:',
                                                           c("Nitrous Oxide Emission"="N2O_data","Methane"= "methane_data")),
                                               #output area graph
-                                              withSpinner(plotOutput("area1",height= 500,width=750)))),
+                                              withSpinner(plotOutput("area1",height= 500,width='auto')))),
                                  
                                  fluidRow(box(title="Greenhouse Gases Emission from agriculture products",align="middle",width='auto',solidHeader = TRUE,status="primary",
                                               #add zoom in function for packed bubble
                                               svgPanZoomOutput("bubble1",height = 500,width = 800)))),
                          
                          tabItem(tabName = "Deforestation",
-                                 fluidRow(box(title="Causes of deforestation",collapsible=TRUE,width='auto',solidHeader = TRUE,status="primary",
+                                 fluidRow(box(title="Causes of deforestation",collapsible=TRUE,width=10,solidHeader = TRUE,status="primary",
                                               #output pie chart
-                                              withSpinner(plotOutput("pie1",height=500,width = 750)),
+                                              withSpinner(plotOutput("pie1",height=500,width = 'auto')),
                                               strong('One football field of rainforest is being cleared every second'))),
                                  
-                                 fluidRow(box(title="land used for agriculture product",width='auto',solidHeader = TRUE,status="primary",
+                                 fluidRow(box(title="land used for agriculture product",width=10,solidHeader = TRUE,status="primary",
                                               #output treemap
-                                              withSpinner(plotOutput("tree1",height = 500,width = 700)))))
+                                              withSpinner(plotOutput("tree1",height = 500,width = 'auto')))))
                          
                        )))
