@@ -26,7 +26,6 @@ library(svgPanZoom)
 library(treemap)
 # install.packages('GGally')
 library(GGally)
-
 #ui
 ##create and design dashboard with menu
 ui <- dashboardPage( skin="purple",
