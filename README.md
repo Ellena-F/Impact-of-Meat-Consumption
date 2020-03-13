@@ -18,11 +18,13 @@ consumption level over the years and these diseases rate from different countrie
 how the increasing of consumption of meat may lead to a worsening climate problem, by exploring greenhouse gases produced, 
 waste produced, and land used from meat production.
 
+
+
+![screenshot](/shiny.png?raw)
+
+Launch shiny app by running this code on R:
+
 runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
-
-runGist("aca4e5a92c66382cd3c5a72de3285cb1")
-
-[screenshot](/shiny.png?raw)
 
 ## Conclusion
 In summary, several researches have stated that meat consumption level plays an important
