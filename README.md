@@ -26,37 +26,39 @@ Launch shiny app by running this code on R:
 
 runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
 
-Library required:
+Library/package required:
+#install package
+# install.packages('rworldmap')
+# install.packages('shinydashboard')
+# install.packages('geomnet')
+# install.packages('countrycode')
+# install.packages('PBSmapping')
+# install.packages('plotrix')
+# install.packages('packcircles')
+# install.packages('svgPanZoom')
+# install.packages('treemap')
+# install.packages('GGally')
 
-shiny,readxl
+#import library 
+library(shiny)
+library(readxl)
+library(rworldmap)
+library(shinydashboard)
+library(ggplot2)
+library(dplyr)
+library(viridis)
+library(countrycode)
+library(data.table)
+library(plyr)
+library(PBSmapping)
+library(plotrix)
+library(packcircles)
+library(svgPanZoom)
+library(treemap)
+library(GGally)
 
-rworldmap
+require(shinydashboard)
 
-shinydashboard
-
-ggplot2
-
-dplyr
-
-viridis
-
-countrycode
-
-data.table
-
-plyr
-
-PBSmapping
-
-plotrix
-
-packcircles
-
-svgPanZoom
-
-treemap
-
-GGally
 
 ## Conclusion
 In summary, several researches have stated that meat consumption level plays an important
