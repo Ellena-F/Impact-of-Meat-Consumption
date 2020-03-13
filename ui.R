@@ -1,6 +1,6 @@
 # install.packages('rworldmap')
 # install.packages('shinydashboard')
-# install.packages('geomnet')
+
 # install.packages('viridis')
 # install.packages('countrycode')
 # install.packages('PBSmapping')
@@ -17,7 +17,7 @@ library(rworldmap)
 library(shinydashboard)
 library(ggplot2)
 library(dplyr)
-library(geomnet)
+
 library(viridis)
 library(countrycode)
 library(data.table)
