@@ -29,7 +29,6 @@ runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
 Library required:
 
 shiny
-
 readxl
 
 rworldmap
