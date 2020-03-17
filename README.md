@@ -22,9 +22,10 @@ waste produced, and land used from meat production.
 
 ![screenshot](/shiny.png?raw)
 
-https://<accountname>.shinyapps.io/<applicationname>
+ 
+[Click here for Interactive Dashboard](https://ellena-fung.shinyapps.io/final/)
 
-### Launch shiny app by running this code on R: 
+### Or launch shiny app by running this code on R: 
 
 runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
 
