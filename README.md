@@ -29,7 +29,7 @@ waste produced, and land used from meat production.
 
 runGitHub( "Impact-of-Meat-Consumption-Shiny", "Ellena-F")
 
-##### Or download Impact of meat consumption-shiny.R to run locally
+##### Or download app.R to run locally
 
 ### Library/package required:  
 
